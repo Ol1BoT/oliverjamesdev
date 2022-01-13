@@ -109,8 +109,16 @@ const Home: NextPage = ({ children }) => {
           gap={7}
           bg={useColorModeValue("gray.50", "gray.900")}
         >
-          <FaGithub size={35} />
-          <FaLinkedin size={35} />
+          <Link href="https://github.com/Ol1BoT" target={"_blank"} isExternal>
+            <FaGithub size={35} />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/oliver-m-a2885971/"
+            target={"_blank"}
+            isExternal
+          >
+            <FaLinkedin size={35} />
+          </Link>
         </Flex>
       </Box>
     </Box>

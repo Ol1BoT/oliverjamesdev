@@ -43,6 +43,12 @@ const projects = [
     text: `While SSRS comes with a built in email scheduler, if you wanted to collate reports together and email them off to certain, you have to do it yourself.
     I forked the PySSRS library as I needed NLTM authentication and multi value parameters.`,
   },
+  {
+    title: "MailChimp - Audience Upload",
+    repo: false,
+    repo_link: "",
+    text: `Rather than upload CSVs to MailChimp, using their API I created a Go program that posts user information into our audience, so they can receiving mail`,
+  },
 ];
 
 export default function Work() {
@@ -63,7 +69,7 @@ export default function Work() {
         </Heading>
         <List spacing={10}>
           {projects.map((v) => (
-            <ListItem display={"flex"} flexDir={"column"}>
+            <ListItem display={"flex"} flexDir={"column"} key={v.title}>
               <Heading size="sm" mw={"25%"}>
                 {v.title}
               </Heading>
