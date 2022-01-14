@@ -46,10 +46,10 @@ export default function Bio() {
           <ListIcon as={FaHammer} />
           2017 Database Developer
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <ListIcon as={FaHammer} />
           2022 Founded Red Rogue Software
-        </ListItem>
+        </ListItem> */}
       </List>
     </Box>
   );
