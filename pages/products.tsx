@@ -70,13 +70,7 @@ export default function Products() {
           </ListItem>
         </List>
         <Flex height={"full"} width={"full"} gap="4">
-          <Box
-            bg={"red.300"}
-            position={"relative"}
-            w="100%"
-            rounded="lg"
-            shadow="lg"
-          >
+          <Box position={"relative"} w="100%" rounded="lg" shadow="lg">
             <Image
               src="/admin_page.png"
               layout="responsive"
@@ -84,13 +78,7 @@ export default function Products() {
               height={"323px"}
             />
           </Box>
-          <Box
-            bg={"red.300"}
-            position={"relative"}
-            w="100%"
-            rounded="lg"
-            shadow="lg"
-          >
+          <Box position={"relative"} w="100%" rounded="lg" shadow="lg">
             <Image
               src="/admin_page_dark.png"
               layout="responsive"
@@ -100,13 +88,7 @@ export default function Products() {
           </Box>
         </Flex>
         <Flex height={"full"} width={"full"} gap="4">
-          <Box
-            bg={"red.300"}
-            position={"relative"}
-            w="100%"
-            rounded="lg"
-            shadow="lg"
-          >
+          <Box position={"relative"} w="100%" rounded="lg" shadow="lg">
             <Image
               src="/application_page.png"
               layout="responsive"
@@ -114,13 +96,7 @@ export default function Products() {
               height={"323px"}
             />
           </Box>
-          <Box
-            bg={"red.300"}
-            position={"relative"}
-            w="100%"
-            rounded="lg"
-            shadow="lg"
-          >
+          <Box position={"relative"} w="100%" rounded="lg" shadow="lg">
             <Image
               src="/profile_desktop.png"
               layout="responsive"
