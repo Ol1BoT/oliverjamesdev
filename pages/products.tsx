@@ -62,6 +62,10 @@ export default function Products() {
           </ListItem>
           <ListItem>
             <ListIcon as={FaCheckCircle} size={"xs"} />
+            Approve and Deny Applications In App
+          </ListItem>
+          <ListItem>
+            <ListIcon as={FaCheckCircle} size={"xs"} />
             Limit Applications and Voting By Year Level
           </ListItem>
           <ListItem>
