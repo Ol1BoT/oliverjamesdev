@@ -24,7 +24,10 @@ export default function Products() {
         p={2}
         mb={55}
       >
-        <Heading size={"sm"}>Votar</Heading>
+        <Heading size={"sm"} mb="1">
+          Votar
+        </Heading>
+        <Heading size={"xs"}>Coming Soon</Heading>
         <Text>
           Votar is Edu-tech software that lets schools and other institutions
           hold elections for certain roles. Be it captains, head of house, head
