@@ -18,7 +18,7 @@ export default function Bio() {
       overflow={"auto"}
       mb={10}
     >
-      <List>
+      <List mb={4}>
         <ListItem>
           <ListIcon as={FaHospitalAlt} />
           1989 Born Eastbourne, UK
