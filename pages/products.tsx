@@ -24,6 +24,14 @@ export default function Products() {
         p={2}
         mb={55}
       >
+        <Box h="100px" w="100px" pos={"relative"}>
+          <Image
+            src="/votar.png"
+            width={"548px"}
+            height={"497"}
+            layout="responsive"
+          />
+        </Box>
         <Heading size={"sm"} mb="1">
           Votar
         </Heading>
