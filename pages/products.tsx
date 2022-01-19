@@ -33,11 +33,11 @@ export default function Products() {
           />
         </Box>
         <Heading size={"sm"} mb="1">
-          Votar
+          Votur
         </Heading>
         <Heading size={"xs"}>Coming Soon</Heading>
         <Text>
-          Votar is Edu-tech software that lets schools and other institutions
+          Votur is Edu-tech software that lets schools and other institutions
           hold elections for certain roles. Be it captains, head of house, head
           of a club etc.
         </Text>
