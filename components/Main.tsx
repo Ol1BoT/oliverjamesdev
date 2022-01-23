@@ -36,7 +36,11 @@ const Home: NextPage = ({ children }) => {
           justifyContent={"space-between"}
         >
           <Box w={50} mt={2}>
-            <Image src="/oj_small.png" height={500} width={500}></Image>
+            <Image
+              src={useColorModeValue("/oj_small.png", "/oj_light.png")}
+              height={500}
+              width={500}
+            />
           </Box>
           <Button
             onClick={() => {
