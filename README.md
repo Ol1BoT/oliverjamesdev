@@ -1,3 +1,3 @@
-# Person Website 2.0
+# Personal Website 2.0
 
 oliverjames.dev
