@@ -37,15 +37,15 @@ export default function Products() {
         </Heading>
         <Heading size={"xs"}>Coming Soon</Heading>
         <Text>
-          Votur is Edu-tech software that lets schools and other institutions
-          hold elections for certain roles. Be it captains, head of house, head
-          of a club etc.
+          Votur is Edu-tech software that enables schools and other institutions
+          to hold elections for certain roles. Be it captains, head of house,
+          head of a club etc.
         </Text>
         <Text>
-          The app lets you create elections where people submit applications
-          based on questions assigned to that election. Applications can be
-          approved or denied, and from there the election can go live and people
-          can vote. Applying and Voting can be restricted by year level.
+          Admins can create elections where people submit applications based on
+          questions assigned to that election. Applications can be approved or
+          denied, and from there the election can go live and people can vote.
+          Applying and Voting can be restricted by year level.
         </Text>
         <Heading size={"sm"} mt="3">
           Features
@@ -84,7 +84,7 @@ export default function Products() {
             Ranked Voting
           </ListItem>
         </List>
-        <Flex height={"full"} width={"full"} gap="4">
+        {/* <Flex height={"full"} width={"full"} gap="4">
           <Box position={"relative"} w="100%" rounded="lg" shadow="lg">
             <Image
               src="/admin_page.png"
@@ -119,7 +119,7 @@ export default function Products() {
               height={"323px"}
             />
           </Box>
-        </Flex>
+        </Flex> */}
       </Box>
     </Flex>
   );

@@ -28,7 +28,7 @@ const projects = [
     title: "AD Distribution Groups",
     repo: false,
     repo_link: "",
-    text: "Using Go I automated the creation and syncing of distribution groups. These groups were based on different staff identifers within the HR software, using SQL to extract the necessary data.",
+    text: "Using Go, I automated the creation and syncing of distribution groups. These groups were based on different staff identifers within the HR software, using SQL to extract the necessary data.",
   },
   {
     title: "Automating LMS Sync",
@@ -40,7 +40,7 @@ const projects = [
     title: "SSRS Reports - Running, Grouping and Emailing",
     repo: false,
     repo_link: "",
-    text: `While SSRS comes with a built in email scheduler, if you wanted to collate reports together and email them off to certain, you have to do it yourself.
+    text: `While SSRS comes with a built in email scheduler, if you wanted to collate reports together and email them off to certain users, you have to do it yourself.
     I forked the PySSRS library as I needed NLTM authentication and multi value parameters.`,
   },
   {

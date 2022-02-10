@@ -27,21 +27,20 @@ const tech = [
   },
   {
     name: "SQL",
-    description: `My first role out of University was that of a DBA, and it isn't a role I hold dearly, nor one that I would go back to if I had the choice. However thanks
-			to that role I picked up strong SQL/T-SQL skills, the majority of which are transferable to other SQL based DB's. Since that job I have used both MS SQL Server
+    description: `My first role out of University was that of a DBA. Thanks to that role I picked up strong SQL/T-SQL skills, the majority of which are transferable to other SQL based DB's. Since that job I have used both MS SQL Server
 			and PostgreSQL in production.`,
     icon: AiOutlineConsoleSql,
   },
 
   {
     name: "Python",
-    description: `When I first started doing automations I used Python as it is a great beginner language, and there are some very good libaries out there for automating 
-			tasks. I have used to wrangle data using Numpy, Pandas and Jupyter Notebook.`,
+    description: `When I first began doing automations I used Python as it is a great beginner language, and there are some very good libaries out there for automating 
+			tasks. I have also used Numpy and Pandas for data wrangling`,
     icon: FaPython,
   },
   {
     name: "Vue",
-    description: `Vue was the first front-end framework that I really enjoyed and started making projects with it. Vuetify was a big incentive to use Vue as well as it is an
+    description: `Vue was the first front-end framework that I really enjoyed and started creating projects with it. Vuetify was a big incentive to use Vue as well as it is an
 			excellent material design component library that extracted a lot of the pains out of making dynamic web components.`,
     icon: FaVuejs,
   },
@@ -54,13 +53,12 @@ const tech = [
   },
   {
     name: "React",
-    description: `I've only used React for personal projects due to wanting to improve at it, as it is the worlds most popular front-end "library" (can we just call it a framework already?).
-			This website was made using React (specifically NextJS) and tailwindcss`,
+    description: `React is currently my tool of choice for creating web app (specifically NextJS). I used React for my Votur app as well as this website.`,
     icon: FaReact,
   },
   {
     name: "AWS",
-    description: `I have used a range of AWS services, but mainly RDS, ECS and EC2. 
+    description: `I have used a range of AWS services, mainly RDS, ECS and EC2. 
 	I have also used the AWS SDK for JavaScript and Golang making it easier to integrate services such as S3 into applications`,
     icon: FaAws,
   },
