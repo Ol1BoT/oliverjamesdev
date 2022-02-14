@@ -6,6 +6,7 @@ import "@fontsource/raleway";
 
 import MainPage from "../components/Main";
 import theme from "../theme/theme";
+import { Head } from "next/document";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

@@ -16,6 +16,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useColorMode } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 const Home: NextPage = ({ children }) => {
   const { toggleColorMode, colorMode } = useColorMode();
@@ -23,6 +24,9 @@ const Home: NextPage = ({ children }) => {
 
   return (
     <Box>
+      <Head>
+        <title>Oliver James Dev</title>
+      </Head>
       <Flex
         justifyContent={"center"}
         bg={useColorModeValue("gray.50", "gray.900")}
@@ -85,19 +89,19 @@ const Home: NextPage = ({ children }) => {
           flexWrap={"wrap"}
         >
           <NextLink href="/" passHref>
-            <Link>Bio</Link>
+            <Link outline={"0 !important"}>Bio</Link>
           </NextLink>
           <NextLink href="/stack" passHref>
-            <Link>Stack</Link>
+            <Link outline={0}>Stack</Link>
           </NextLink>
           <NextLink href="/products" passHref>
-            <Link>Products</Link>
+            <Link outline={0}>Products</Link>
           </NextLink>
           <NextLink href="/work" passHref>
-            <Link>Work</Link>
+            <Link outline={0}>Work</Link>
           </NextLink>
           <NextLink href="/contributions" passHref>
-            <Link>Contributions</Link>
+            <Link outline={0}>Contributions</Link>
           </NextLink>
         </Box>
         <SlideFade key={router.route} in={true} offsetY={20}>
