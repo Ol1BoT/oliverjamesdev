@@ -15,8 +15,8 @@ import GoIcon from "../components/GoIcon";
 const tech = [
   {
     name: "NodeJS",
-    description: `NodeJS is one of my favourite back-end's to use for API creation. The NPM eco-system makes it easy to get stuff done fast, and with the addition of TypeScript it enjoy it even more.
-			Drawbacks are that I don't enjoy dependency hell, updating packages can be annoying and I've had to rebuild a few projects becaue of it.`,
+    description: `NodeJS is one of my favourite back-end's to use for API creation. The NPM eco-system makes it easy to get stuff done fast, and with the addition of TypeScript I enjoy it even more.
+			Drawbacks are that I don't enjoy dependency hell, updating packages can be annoying and I've had to rebuild a few projects because of it.`,
     icon: FaNodeJs,
   },
   {
@@ -27,8 +27,8 @@ const tech = [
   },
   {
     name: "SQL",
-    description: `My first role out of University was that of a DBA. Thanks to that role I picked up strong SQL/T-SQL skills, the majority of which are transferable to other SQL based DB's. Since that job I have used both MS SQL Server
-			and PostgreSQL in production.`,
+    description: `My first job out of University was Database Administrator. Thanks to that role I developed strong SQL skills,
+     which can be used across many DB's. I have experience in both MSSQL Server and PostreSQL in production.`,
     icon: AiOutlineConsoleSql,
   },
 
