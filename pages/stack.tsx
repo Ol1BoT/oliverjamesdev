@@ -15,8 +15,7 @@ import GoIcon from "../components/GoIcon";
 const tech = [
   {
     name: "NodeJS",
-    description: `NodeJS is one of my favourite back-end's to use for API creation. The NPM eco-system makes it easy to get stuff done fast, and with the addition of TypeScript I enjoy it even more.
-			Drawbacks are that I don't enjoy dependency hell, updating packages can be annoying and I've had to rebuild a few projects because of it.`,
+    description: `NodeJS is one of my favourite back-end's to use for API creation. The NPM eco-system makes it easy to get stuff done fast, and with the addition of TypeScript I enjoy it even more.`,
     icon: FaNodeJs,
   },
   {
