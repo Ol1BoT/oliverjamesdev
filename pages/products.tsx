@@ -30,6 +30,7 @@ export default function Products() {
             width={"548px"}
             height={"497"}
             layout="responsive"
+            alt="Votur Logo"
           />
         </Box>
         <Heading size={"sm"} mb="1">

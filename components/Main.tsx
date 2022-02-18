@@ -44,6 +44,7 @@ const Home: NextPage = ({ children }) => {
               src={useColorModeValue("/oj_small.png", "/oj_light.png")}
               height={500}
               width={500}
+              alt="Logo, Oliver James Initials"
             />
           </Box>
           <Button
