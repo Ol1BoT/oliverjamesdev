@@ -53,7 +53,7 @@ const projects = [
     title: "MailChimp - Audience Upload",
     repo: false,
     repo_link: "",
-    text: `Rather than upload CSVs to MailChimp, using their API I created a Go program that posts user information into our audience, so they can receiving mail`,
+    text: `Rather than upload CSVs to MailChimp, using their API I created a Go program that posts user information into our audience, so they can receive mailouts`,
   },
 ];
 
