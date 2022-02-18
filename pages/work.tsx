@@ -10,6 +10,12 @@ const projects = [
     As I was in charge of the entire project, I used Vuetify (Material Design framework) so that I didn't have to worry about designing all the components.`,
   },
   {
+    title: "Canvas LMS Scraper - Extend SharePoint Expiry Links",
+    text: `There was an ongoing issue with SharePoint links expiring in courses, as the policy was a share link would only stay active for a month at a time.
+    Using the Canvas API I cycled through all published courses scrapping pages bodies looking for SharePoint links using Regex. Once the links were collated,
+    MS Graph was used to update the expiry dates for the drive items`,
+  },
+  {
     title: "Student Information System",
     repo: false,
     postman: true,
