@@ -10,13 +10,16 @@ export default class Document extends NextDocument {
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:creator" content="@OllieMignot" />
           <meta property="og:url" content="https://oliverjames.dev" />
-          <meta property="og:title" content="Oliver Mignot Person Website" />
+          <meta property="og:title" content="Oliver Mignot Personal Website" />
 
           <meta
             property="og:description"
             content="Personal site detailing my work, projects and products."
           />
-          <meta property="og:image" content="./oj_light.png" />
+          <meta
+            property="og:image"
+            content="https://www.oliverjames.dev/_next/image?url=%2Foj_light.png&w=1080&q=75"
+          />
         </Head>
         <body>
           {/* 👇 Here's the script */}
